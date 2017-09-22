@@ -119,15 +119,15 @@
     <script>
       $(document).ready(function() {
         //навигация - главный скроллинг к якорю
-        $(".slowly").on("click", function(event){
+        $(".slowly").on("click", function(event) {
           //Отменяем стандартную обработку нажатия по ссылке
           event.preventDefault();
           //Забираем идентификатр бока с атрибута href
-          var id=$(this).attr('href'),
+          var id = $(this).attr('href'),
           //узнаем высоту начала страницы до блока на которой ссылается якорь
           top = $(id).offset().top;
           //анимируем переход на расстояние - top за 1500 мс
-          $('body,html').animate({scrollTop:to},800);
+          $('body,html').animate({scrollTop: top},800);
         });
       });
     </script>
