@@ -54,8 +54,7 @@
         </div>
         <div class="col-md-4">
           <div class="portfolio-block">
-            <img src="img/portfolio/3.jpg" alt="Работа №3">
-           
+            <img src="img/portfolio/3.jpg" alt="Работа №3">           
             <a link="link cd-modal-trigger" data-work='work-3' href="#0">Смотреть работу</a>
           </div>
         </div>
@@ -119,12 +118,11 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/main.js"></script>
-
     <script src="js/parallax.min.js"></script>  
     <script>
       $(function(){
         var link = $('.cd-modal-trigger');
-        link.on('click',function(event){
+        link.on('click',function(event) {
           var work = $(this).attr('data-work');
           
           $('.modal-content').load(work+'.html');
