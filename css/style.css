@@ -20,7 +20,7 @@ a:active, a:visited, a:focus {
 	height: 100vh;
 	display:table;
 	width: 100%;
-	background: #000 url(../img/main-bg.jpg) center center no-repeat;
+	/*background: #000 url(../img/main-bg.jpg) center center no-repeat;*/
 }
 .main-overlay {
 	position: absolute;
